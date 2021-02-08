@@ -28,6 +28,10 @@ No link abaixo estará o passo-a-passo original em inglês:
 
 https://digistump.com/wiki/digispark/tutorials/connecting
 
+# Scripts
+
+  _N/A_
+
 # Referencias e Créditos
 
 [Gadotti](https://github.com/Gadotti/DigisparkScripts)
