@@ -32,6 +32,10 @@ https://digistump.com/wiki/digispark/tutorials/connecting
 
   _N/A_
 
+# Miscellaneous
+
+[OverView - Teclado PtBr ABNT2](http://kbdlayout.info/KBDBR)
+
 # Referencias e Créditos
 
 [Gadotti](https://github.com/Gadotti/DigisparkScripts)
