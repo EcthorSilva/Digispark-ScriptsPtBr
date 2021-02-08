@@ -34,7 +34,7 @@ https://digistump.com/wiki/digispark/tutorials/connecting
 
 # Miscellaneous
 
-[OverView - Teclado PtBr ABNT2](http://kbdlayout.info/KBDBR)
+[Overview Teclado Pt-Br ABNT2](http://kbdlayout.info/KBDBR)
 
 # Referencias e Créditos
 
