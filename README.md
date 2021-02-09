@@ -43,5 +43,3 @@ Este Script transforma Rick Astley em Risk ASCII e faz ele cantar e dançar Neve
 [Gadotti](https://github.com/Gadotti/DigisparkScripts)
 
 [CedArctic](https://github.com/CedArctic/DigiSpark-Scripts)
-
-[jcldf](https://github.com/jcldf/digisparkABNT2)
