@@ -9,7 +9,7 @@ _Todos os créditos serão atribuídos no final deste README.md_
 
 # Instalação
 
-Este é um guia rapido para iniciar o ambiente de desenvolvimento caso queira ajudar ou testar o porjeto.
+Este é um guia rapido para iniciar o ambiente de desenvolvimento caso queira ajudar ou testar o projeto.
 
 1. Instale os [drivers](https://github.com/digistump/DigistumpArduino/releases) do Arduino
 
