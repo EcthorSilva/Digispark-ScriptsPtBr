@@ -30,7 +30,9 @@ https://digistump.com/wiki/digispark/tutorials/connecting
 
 # Scripts
 
-  _N/A_
+### Rick_Astley_Script
+
+Este Script transforma Rick Astley em Risk ASCII e faz ele cantar e dançar Never Let You Down dentro da tela do PowerShell
 
 # Miscellaneous
 
