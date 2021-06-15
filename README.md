@@ -1,7 +1,7 @@
 # Digispark-ScriptsPtBr
 ###### Scripts para serem usados no Digispark com propósitos estudantis (for studying purposes).
 
-Iniciei este repositório com o intuito de criar, e também aperfeiçoar scripts existentes para o ATTINY85 Digispark.
+Iniciei este repositório com o intuito de criar e aperfeiçoar scripts existentes para o ATTINY85 Digispark.
 
 Ao longo deste desenvolvimento irei me basear em repositórios já existentes, tanto nacionais como internacionais, justamente para aperfeiçoar algumas técnicas e também trazer alguns scripts para o teclado Pt-Br.
 
