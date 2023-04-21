@@ -34,6 +34,10 @@ https://digistump.com/wiki/digispark/tutorials/connecting
 
 Este Script transforma Rick Astley em Risk ASCII e faz ele cantar e dançar Never Let You Down dentro da tela do PowerShell. Neste temos dois scripts, um que fiz baseado na biblioteca padrão, DigiKeyboard, e o outro que usei a biblioteca escrita e mapeada pelo Eduardo Gadotti.
 
+#### Steal Wi-Fi Password
+
+Este script pega todas as senhas Wi-Fi salvas no computador e salva em um arquivo.
+
 # Miscellaneous
 
 [Overview Teclado Pt-Br ABNT2](http://kbdlayout.info/KBDBR)

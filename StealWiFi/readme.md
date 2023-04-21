@@ -1,4 +1,4 @@
-### StealWiFi
+### Steal Wi-Fi Password
 
 > Author: Ecthor Silva
 > Description: Este script pega todas as senhas Wi-Fi salvas no computador e salva em um arquivo.
