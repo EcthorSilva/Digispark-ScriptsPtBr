@@ -1,6 +1,6 @@
 ### Steal Wi-Fi Password
 
-> Author: Ecthor Silva
+> Author: Ecthor Silva  
 > Description: Este script pega todas as senhas Wi-Fi salvas no computador e salva em um arquivo.
 
 O script abre o powershell em modo administrador, usa o comando `Start-Service -Name 'wlansvc'` para iniciar o serviço de configuração de rede sem fio do Windows. Após isso cria uma pasta para armazenar os arquivos de configuração de rede sem fio. Ele também usa a data e hora atual para criar um nome exclusivo para a pasta. O comando PowerShell netsh wlan export profile key=clear folder=$fileSaveDir; exit é usado para exportar as configurações de rede sem fio para a pasta recém-criada.
