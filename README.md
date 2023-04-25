@@ -36,7 +36,7 @@ Este Script transforma Rick Astley em Risk ASCII e faz ele cantar e dançar Neve
 
 #### Steal Wi-Fi Password
 
-Este script pega todas as senhas Wi-Fi salvas no computador e salva em um arquivo.
+Este script pega todas as senhas Wi-Fi salvas no computador e salva em um arquivo .zip e envia para um servidor do Discord usando Webhook.
 
 # Miscellaneous
 
@@ -45,5 +45,4 @@ Este script pega todas as senhas Wi-Fi salvas no computador e salva em um arquiv
 # Referencias e Créditos
 
 [Gadotti](https://github.com/Gadotti/DigisparkScripts)
-
 [CedArctic](https://github.com/CedArctic/DigiSpark-Scripts)
